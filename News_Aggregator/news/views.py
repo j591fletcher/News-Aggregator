@@ -1,6 +1,6 @@
-# -*- coding: utf-8 -*-
-from __future__ import unicode_literals
-
-from django.shortcuts import render
-
+import requests
+from django.shortcuts import render, redirect
+from bs4 import BeautifulSoup as BSoup
+from news.models import Headline
 # Create your views here.
+
